@@ -63,22 +63,22 @@ print('hello')
 
 ### What are arithmatic operators in python?
 - List of arithmatic operations:
-    - +  ---> Addition `print(7 + 2)` = 9
-    - -  ---> Subrtaction `print(7 - 2)` = 5
-    - *  ---> Multiplication `print(7 * 2)` = 14
-    - /  ---> Division `print(7 / 2)` = 3.5
+    - "+"  ---> Addition `print(7 + 2)` = 9
+    - "-"  ---> Subrtaction `print(7 - 2)` = 5
+    - "*"  ---> Multiplication `print(7 * 2)` = 14
+    - "/"  ---> Division `print(7 / 2)` = 3.5
     - ** ---> Power `print(7 ** 2)` = 49
-    - %  ---> Modulo `print(7 % 2)` = 1
-    - // ---> Intger divider `print(7 // 2)` = 3 or `print(17 // 2)` = -4
+    - "%"  ---> Modulo `print(7 % 2)` = 1
+    - "//" ---> Intger divider `print(7 // 2)` = 3 or `print(17 // 2)` = -4
 
 ### Comparison Operators:
 - Compares two values and produces boolean results.
-    - > 
-    - <
-    - <=
-    - >=
-    - ==
-    - !=
+    - ">" 
+    - "<"
+    - "<="
+    - ">="
+    - "=="
+    - "!="
 
 ### Logical Operators:
 - Logical operators are use for bitwise manupulation.
@@ -146,6 +146,7 @@ print(months[1:3])  # 3.4, 'a string'
 months = [1, 3.4, 'a string', True]
 print(months[:2])  # 1, 3.4
 print(months[2:])  # 'a string', True
+```
 
 ### Membership operators:
 - **in** checks weather the member on the left side is included in the list/string on the right side.
